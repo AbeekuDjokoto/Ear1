@@ -697,6 +697,11 @@ body > section.almost > div > div:nth-child(1) > figure > img{
 
 @media(max-width:375px){
 
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navbar{
     padding: 25px 24px 132.05px 22px;
     width: 100%;
